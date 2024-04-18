@@ -1,6 +1,7 @@
 h1 {
     background-color: blueviolet;
     font-family: Helvetica, Verdana, Arial;
+    font-weight: bold;
     color: whitesmoke;
     font-size: 40px;
     text-align: center;
@@ -8,7 +9,7 @@ h1 {
 
 li, a {
     font-family: Helvetica, Verdana, Arial;
-    color: black;
+    color: blueviolet;
     font-size: 30px;
     line-height: 2;
     list-style: none;
