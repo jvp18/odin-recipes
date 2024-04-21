@@ -9,15 +9,15 @@ html {
 
 body {
     font-family: Helvetica, Verdana, Arial;
-    background-color: antiquewhite;
 }
 
 h1 {
     width: 700px;
     height: 80px;
-    font-weight: bold;
+    border: solid 1px grey;
     color: blueviolet;
     font-size: 40px;
+    font-weight: bold;
     text-align: center;
     margin: auto;
     padding-top: 20px;
