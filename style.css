@@ -9,12 +9,12 @@ html {
 
 body {
     font-family: Helvetica, Verdana, Arial;
+    background-color: antiquewhite;
 }
 
 h1 {
     width: 700px;
     height: 80px;
-    border: solid blueviolet 3px;
     font-weight: bold;
     color: blueviolet;
     font-size: 40px;
