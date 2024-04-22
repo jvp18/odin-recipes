@@ -15,26 +15,58 @@ body {
 
 .container {
     width: 1600px;
-    height: 1340px;
     border: solid 1px rgb(179, 178, 178);
     margin: auto
+}
+
+.container.pizza {
+    height: 1300px;
+}
+
+.container.chili {
+    height: 2550px;
+}
+
+.container.chicken {
+    height: 1200px;
 }
 
 .page-title {
     width: auto;
     height: 120px;
-    background-color: rgb(119, 198, 88);
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 46px;
+    font-size: 48px;
     text-align: center;
-    padding-top: 35px; 
+    padding-top: 30px; 
+}
+
+.page-title.pizza {
+    background-color: rgb(119, 198, 88);
+}
+
+.page-title.chili {
+    background-color: rgb(223, 174, 14);
+}
+
+.page-title.chicken {
+    background-color: rgb(43, 51, 202);
 }
 
 img {
     display: inline-block;
-    margin: 10px;
+}
 
+.list.pizza, .list-header.pizza {
+    color: rgb(51, 139, 16);
+}
+
+.list.chili, .list-header.chili {
+    color: rgb(182, 115, 14);
+}
+
+.list.chicken, .list-header.chicken {
+    color: rgb(10, 17, 141);
 }
 
 .list {
@@ -43,15 +75,12 @@ img {
     width: 400px;
     height: 480px;
     overflow: hidden;
-    color: rgb(119, 198, 88);
-
     font-size: 24px;
 }
 
 .list-header {
     display: inline-block;
     width: 320px;
-    color: rgb(119, 198, 88);
     font-size: 36px;
     font-weight: bold;
     margin: -55px 10px 0px auto;
@@ -62,27 +91,31 @@ img {
 }
 
 .list-header.one{
-    padding: 10px 0px 10px 67px; 
+    padding: 10px 0px 10px 75px; 
 }
 
-.list-header.two{
+.list-header.pizza.two{
     padding: 10px 0px;
 }
 
-.list.first-half {
+.list.chili.second-half{
+    padding-top: 32px;
+}
+
+.list.pizza {
     padding-right: -20px;
 }
 
-
 .steps-header {
     width: auto;
-    height: 80px;
-    background-color: rgb(245, 245, 245);
-    color:rgb(228, 90, 90) ;
-    padding: 20px 30px;
-    font-size: 36px;
+    height: 120px;
+    background-color:rgb(228, 90, 90);
+    color: rgb(245, 245, 245);
+    padding-top: 30px;
+    font-size: 48px;
     font-weight:bolder;
     text-align: center;
+    margin-top: -4px;
 }
 
 .step {
@@ -91,8 +124,8 @@ img {
 
 .steps {
     white-space: pre-wrap;
-    background-color: rgb(228, 90, 90);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(208, 10, 10);
     font-size: 24px;
     padding-top: -0px
 }
